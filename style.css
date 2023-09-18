@@ -33,7 +33,7 @@ body {
     background-position: center;
     background-size: cover;
     /* position: relative; */
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
     color: #939598;
 }
 
@@ -41,7 +41,7 @@ body {
     /* outline: 1px solid blue; */
     width: 100%;
     position: absolute;
-    left: 50%; top: 18%;
+    left: 50%; top: 120px;
     transform: translateX(-50%); 
     text-align: center;
 }
@@ -106,7 +106,7 @@ body {
     text-align: center;
     /* outline: 1px solid green; */
     position: absolute;
-    bottom: 15%; left: 50%; 
+    bottom: 100px; left: 50%; 
     transform: translateX(-50%); 
 }
 
@@ -255,11 +255,6 @@ section {
 }
 #gallery .slide img {
     width: 100%;
-}
-
-#gallery .gallery13 img {
-    width: 600px;
-    height: 900px;
 }
 
 #gallery .slide {
