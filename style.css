@@ -106,7 +106,7 @@ body {
     text-align: center;
     /* outline: 1px solid green; */
     position: absolute;
-    bottom: 100px; left: 50%; 
+    bottom: 30px; left: 50%; 
     transform: translateX(-50%); 
 }
 
