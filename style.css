@@ -35,8 +35,6 @@ body {
     /* position: relative; */
     outline: 1px solid red;
     color: #939598;
-    display: flex;
-    justify-content: center;
 }
 
 #main .up {
@@ -135,31 +133,6 @@ body {
     to {
         transform: rotateY(360deg);
     }
-}
-
-.noise { 
-    opacity: 0.9;
-
-}
-
-.noise:after {
-    content: "";
-    pointer-events: none;
-    will-change: transform;
-    animation: grain 1s steps(4) infinite;
-    background-image: url(https://d33wubrfki0l68.cloudfront.net/ca35f13c5d50956a0ec948e4adbc6fa45461b31c/18f67/_nuxt/img/bg.387e38b.webp);
-    width: 200%;
-    height: 200%;
-    display: block;
-    position: fixed;
-    top: -50%;
-    left: -50%;
-}
-
-
-@keyframes grain {
-  0%, 100% { transform:translate(0, 0) }
-  10% { transform:translate(-5%, -10%) } 
 }
 
 section {
