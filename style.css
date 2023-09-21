@@ -20,9 +20,6 @@ body {
     /* overflow 스크롤 강제로 없애는거 */
 }
 
-/* img {
-    width: 130px;
-} */
 
 #main {
     /* min-width: 300px; */
@@ -35,15 +32,35 @@ body {
     /* position: relative; */
     /* outline: 1px solid red; */
     color: #939598;
+
+}
+
+#main .main_wrap {
+    /* width: 450px; */
+    height: 700px;
+    /* background-color: yellow; */
+    position: relative;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+    overflow-y: hidden;
 }
 
 #main .up {
     /* outline: 1px solid blue; */
     width: 100%;
     position: absolute;
-    left: 50%; top: 30px;
+    left: 50%; top: 70px;
     transform: translateX(-50%); 
     text-align: center;
+}
+
+#main .main_con_wrap {
+    height: 400px;
+    /* background-color: aqua; */
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 #main .groom {
@@ -51,62 +68,67 @@ body {
     height: 348px;
     position: absolute;
     left: 45px; 
-    top: 30%;
+    top: 26px;
+}
+
+#main .bride {
+    /* outline: 1px solid blueviolet; */
+    height: 348px;
+    position: absolute;
+    right: 45px; 
+    top: 26px;
 }
 
 #main .groom > p,
 #main .bride > p {
     position: relative;
     top: 150px;
-    transform: translateY(-50%);
+    /* transform: translateY(-50%); */
 }
+
 
 #main .main_img {
     /* outline: 1px solid darkorange; */
-    width: 140px;
+    width: 130px;
     height: 348px;
     position: absolute;
-    top: 220px; left: 50%;
+    top: 26px;
+    left: 50%;
     transform: translateX(-50%);
     overflow-y: hidden;
 }
 
 /* 이미지 크기조절 */
 #main img {
-    width: 130px;
+    width: 120px;
 }
 
-#main .main_img .img2 img { 
-    width: 140px;
-}
+/* #main .main_img .img2 img { 
+    width: 100px;
+} */
 
 /* 이미지 위치 조정 */
 #main .main_img > div img {
     /* outline: 1px solid black; */
     position: relative;
-    left: 50%;
-    transform: translateX(-50%);
+    /* left: 50%;
+    transform: translateX(-50%); */
     margin-bottom: 30px;
 }
 
-#main .main_img > .img3 {
-    margin-top: -8px;
+
+#main .main_img > .img1 {
+    margin-top: 10px;
 }
 
 
-#main .bride {
-    /* outline: 1px solid blueviolet; */
-    height: 348px;
-    position: absolute;
-    right: 45px; top: 30%;
-}
 
 #main .down {
     width: 100%;
     text-align: center;
     /* outline: 1px solid green; */
     position: absolute;
-    bottom: 100px; left: 50%; 
+    bottom: 50px; left: 50%; 
     transform: translateX(-50%); 
 }
 
