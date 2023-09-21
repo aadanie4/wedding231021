@@ -38,7 +38,7 @@ body {
 #main .main_wrap {
     /* width: 450px; */
     height: 700px;
-    /* background-color: yellow; */
+    background-color: yellow;
     position: relative;
     margin: 0 auto;
     top: 50%;
@@ -47,10 +47,10 @@ body {
 }
 
 #main .up {
-    /* outline: 1px solid blue; */
+    outline: 1px solid blue;
     width: 100%;
     position: absolute;
-    left: 50%; top: 70px;
+    left: 50%; top: 25px;
     transform: translateX(-50%); 
     text-align: center;
 }
@@ -128,7 +128,7 @@ body {
     text-align: center;
     /* outline: 1px solid green; */
     position: absolute;
-    bottom: 50px; left: 50%; 
+    bottom: 80px; left: 50%; 
     transform: translateX(-50%); 
 }
 
@@ -175,7 +175,7 @@ section {
     /* position: absolute;
     left: 50%;
     transform: translateX(-50%); */
-    padding-top: 135px;
+    padding-top: 100px;
     padding-bottom: 235px;
     /* background-color: #e2edf8; */
     background-image: linear-gradient(to bottom, #e2ecf8, #ffffff);
