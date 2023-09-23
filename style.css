@@ -433,6 +433,11 @@ section {
     font-weight: 500;
 }
 
+#location .bus .busstop {
+    text-decoration: underline;
+    margin-bottom: 5px;
+}
+
 /*end */
 #end {
     background-color: #e2ecf8;
