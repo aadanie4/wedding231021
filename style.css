@@ -32,6 +32,7 @@ body {
     /* position: relative; */
     /* outline: 1px solid red; */
     color: #939598;
+    overflow-y: hidden;
 
 }
 
@@ -325,7 +326,7 @@ section {
     left: 50%;
     transform: translateX(-50%); */
     /* padding-top: 135px; */
-    padding-bottom: 100px;
+    padding-bottom: 80px;
     /* background-color: #e2edf8; */
     background-image: linear-gradient(to top, #e2ecf8, #ffffff);
 
@@ -377,7 +378,7 @@ section {
 }
 #location .map_desc p {
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 #location .map_desc p > span {
@@ -394,6 +395,45 @@ section {
     color: black;
 }
 
+#location .subway,
+#location .bus {
+    padding-left: 3px;
+    padding-top: 20px;
+    /* outline: 1px solid salmon; */
+    text-align: left;
+    
+}
+
+#location .subway h4,
+#location .bus h4 {
+    padding-bottom: 8px;
+}
+#location .subway p,
+#location .bus p {
+    font-size: 15px;
+}
+#location .subway img {
+    /* outline: 1px solid red; */
+    display: inline-block;
+    padding-top: 3px;
+}
+
+#location .bus .blue span {
+    color: blue;
+    font-weight: 500;
+}
+
+#location .bus .green span {
+    color: green;
+    font-weight: 500;
+}
+
+#location .bus .red span {
+    color: red;
+    font-weight: 500;
+}
+
+/*end */
 #end {
     background-color: #e2ecf8;
 }
